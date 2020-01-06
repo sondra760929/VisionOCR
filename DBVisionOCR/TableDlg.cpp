@@ -5,6 +5,7 @@
 #include "TableDlg.h"
 #include "afxdialogex.h"
 #include "resource.h"
+#include "AutoSplitPagesView.h"
 // CTableDlg 대화 상자
 
 IMPLEMENT_DYNAMIC(CTableDlg, CDialog)
@@ -122,6 +123,10 @@ void CTableDlg::OnDClicked(int col, long row)
 
 void CTableDlg::OnCellChange(int oldcol, int newcol, long oldrow, long newrow)
 {
+	if (m_pCurrentView)
+	{
+		m_pCurrentView->OnCellChange(oldcol, newcol, oldrow, newrow);
+	}
 		//if (m_pView)
 		//{
 		//	m_pView->OnCellChange(oldcol, newcol, oldrow, newrow);
