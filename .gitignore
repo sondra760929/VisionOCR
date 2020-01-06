@@ -1,0 +1,8 @@
+.vs/
+VisionOCRApp/bin/
+VisionOCRApp/obj/
+x64/
+*.pdb
+*.zip
+Setup_DBVisionOCR/Release/
+packages/

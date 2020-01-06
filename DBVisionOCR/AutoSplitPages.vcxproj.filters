@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ultimate_Grid">
+      <UniqueIdentifier>{3c0bfd7b-b34a-4de7-bb59-539988a91154}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoSplitPages.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoSplitPagesDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoSplitPagesView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCShellTreeCtrlEx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCShellUtils.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellTreeCtrl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPreviewDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CTemplateDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplatePane.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryDC.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgRename.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TableDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TablePane.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTafnt.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTAutoSize.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTbutn.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTDropGrid.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTdtp.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\ugctelps.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTExpand.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTLabeled.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTMail.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTMailSort.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTMarquee.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTmfnt.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTNote.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\ugctnotewnd.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTOutlookHeader.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTpie.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTpro1.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTprog.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTRado.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTsarw.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTsldr.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\CellTypes\UGCTSpin.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\EditControls\UTEdit.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\EditControls\UTMaskedEdit.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UG64Bit.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGCBType.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGCell.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ugceltyp.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGCnrBtn.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGCTarrw.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGCtrl.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ugdefine.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGDLType.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGDrgDrp.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGDrwHnt.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGDtaSrc.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGEdit.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGEditBase.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ugformat.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\uggdinfo.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGGrid.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGHint.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ughscrol.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\uglstbox.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGMEdit.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGMemMan.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGMultiS.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ugprint.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ugptrlst.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ugsidehd.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGStrOp.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ugstruct.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ugtab.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\UGTopHdg.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ugvscrol.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Ultimate_Grid\Include\ugxpthemes.h">
+      <Filter>Ultimate_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCUGEdit.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoSplitPages.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoSplitPagesDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoSplitPagesView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCShellUtils.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellTreeCtrl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCShellTreeCtrlEx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPreviewDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CTemplateDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplatePane.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryDC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgRename.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TablePane.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TableDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTafnt.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTAutoSize.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTbutn.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTDropGrid.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTdtp.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\ugctelps.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTExpand.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTLabeled.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTMail.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTMailSort.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTMarquee.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTmfnt.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTNote.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\ugctnotewnd.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTOutlookHeader.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTpie.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTpro1.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTprog.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTRado.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTsarw.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTsldr.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\CellTypes\UGCTSpin.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\EditControls\UTEdit.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\EditControls\UTMaskedEdit.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGCBType.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGCell.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGCelTyp.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGCnrBtn.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGCTarrw.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGCtrl.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGDLType.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGDrgDrp.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGDrwHnt.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGDtaSrc.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGEdit.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGEditBase.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\ugformat.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\uggdinfo.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGGrid.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGHint.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\ughscrol.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\ugLstBox.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGMEdit.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGMemMan.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGMultiS.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\ugprint.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\ugptrlst.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\ugsidehd.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGStrOp.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\ugtab.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGTopHdg.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\ugvscrol.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Ultimate_Grid\Source\UGXPThemes.cpp">
+      <Filter>Ultimate_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCUGEdit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoSplitPages.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\buttons.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\AutoSplitPagesDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\AutoSplitPages.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\AutoSplitPages.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\ribbon1.mfcribbon-ms">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>
