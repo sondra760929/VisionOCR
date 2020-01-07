@@ -6,3 +6,4 @@ x64/
 *.zip
 Setup_DBVisionOCR/Release/
 packages/
+DBVisionOCR/Release/

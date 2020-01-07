@@ -255,6 +255,9 @@
     <ClInclude Include="MyCUGEdit.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="DlgProgress.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AutoSplitPages.cpp">
@@ -477,6 +480,9 @@
       <Filter>Ultimate_Grid</Filter>
     </ClCompile>
     <ClCompile Include="MyCUGEdit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProgress.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -198,6 +198,7 @@
     <ClInclude Include="ClassView.h" />
     <ClInclude Include="CPreviewDlg.h" />
     <ClInclude Include="CTemplateDlg.h" />
+    <ClInclude Include="DlgProgress.h" />
     <ClInclude Include="DlgRename.h" />
     <ClInclude Include="FileView.h" />
     <ClInclude Include="MainFrm.h" />
@@ -279,6 +280,7 @@
     <ClCompile Include="ClassView.cpp" />
     <ClCompile Include="CPreviewDlg.cpp" />
     <ClCompile Include="CTemplateDlg.cpp" />
+    <ClCompile Include="DlgProgress.cpp" />
     <ClCompile Include="DlgRename.cpp" />
     <ClCompile Include="FileView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
