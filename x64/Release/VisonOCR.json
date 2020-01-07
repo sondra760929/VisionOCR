@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "galvanic-pulsar-263306",
+  "private_key_id": "68342013c8dfe194b6c66c9679e9f18861b9174c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCZManfTI5OwRNq\nM7DFV03P8dJwrBEmAq4T4lGGkzOk+qxK/9+6DaK13fGJIwJHYmr4W5vrjucpBFJW\nm/93gOMx7f3V+OQKSqre9zDNx1biiV5XqjdidDDwfR9G0pSnncwNO3ABxi0PZWfH\nfTXqQ+WsabdyTo7Mb6KJUd26JX8S6QXCtfNDsV6Ik74RTMXS2qDWYqt49cFZp7Qi\nK+6ZgaBonl9/PPccduu6Fb0F98llA0OdthQ/h9PTCsJfrJpXWGs6wgj5U1jlfxGp\nXLfBu/VwZfi5tMT/eNef09h66DSnEQZlsa4puO0kRe+FR/keCuriM8ucLsyDCbzz\n+JyiwJwhAgMBAAECggEAASawgovVmMBRFCftMinBZ83m7AoSSxVI0n/YPJEZWZ9j\nwUtaK+Xw6lnaOBK2EGGBe9owtMojJkmg0UNfkxnaCzILvt/S3dluXoR1aUxwHz29\n7TMgx/8nGX2FM+/pO6JfH3J/hAHlrN3maVyMCyA6vEs4kcsxk0DGVBlpgj3dzjTE\nqEs+EznHjsiDkFz6MNDt5ikrcoChVk9geP6b9a+baSnAXrYaDl4dDbf8irc+M+YM\nuSlg7NLeWT2mSJNI/7x6tLG7eWq9zr8iR7R9ODfXUS7mqGdmnvWV3ma7uhWrZyi6\nhEDEo4MPehjOQQL8l6rG1qIenKR4PwheyVul5MGqmQKBgQDLEbJNR3HREkWX8dIt\nt0sX3aokr7Qm8voGfAX9J+03863evYxKfYjqwpBYvAKSPn5AxFk3Ytf0fRPil+Mj\nQfQdT2lrz1B0Bxux7dHKxfSVS0kRYTjrmAOJDc4Weocv/7Hvwn3pSRZfkonpQMHe\nPwhjYKrxCltzHVZzyzjRpxcEWQKBgQDBH+wg8btosa52wx7mn9dVoj1l4bamlVpV\nzDoyh78dWdhVtz42rRgFmkwNWUDfe9DHkGFjTx2vlWLLITqZqdxq8K9chJb5qyY2\nuisIVze1NoXBhTPyV7DU2Q7ESKW68nag0QRNn5KulYINmNnrI5w54UAfNDvD4HPD\noucKQiJ9CQKBgQCia1sTWGt+b4DeUPpsukgDpLXrdeU/qeO0wAoCO6cOs4aDu1O0\nWMfkDQ5rCqV71yQgJWu+Uv6rfEclW5q+nofj0ZpeMokE5JKQM8kyyDYiGv8sOXjP\nZtydCD+n1wS9rWPigss2hdCxTIGl4LevTPcmlTDkbgZLAlIdd5PQjDZqsQKBgQCj\na8Dji8qbaCeKxcgDPeT4yMYNzXdC9YUwrxXcJnR5gMqIlfwmRkjajNuoPAuiUWK1\nTJ6sa4liSBYGb8Lnvw4OzEaIEoazFLnMe7LoZu10AYQj4vS3MK8pHdfaDuN3E6+A\nm/55NPvpkggwO1TEHikX7VzWStv7/5XWSaYaTyZiCQKBgEDETQnn7clwJahqIShp\naMGgyDmZyfZemnL4lJ/F64dDIXD7zY5tH4WuqKGEnlSw9jfvshRIurAaLf86wBy0\nAK5p/M6tLt63D9BhlclbKJgLicO+V7WoLKahUTM/xE4Dav2ETgx2gC+MM0Ld7NXz\n0QcC3dwlUC8zL6buObmVv1lb\n-----END PRIVATE KEY-----\n",
+  "client_email": "digibook@galvanic-pulsar-263306.iam.gserviceaccount.com",
+  "client_id": "107175682211575251583",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/digibook%40galvanic-pulsar-263306.iam.gserviceaccount.com"
+}
