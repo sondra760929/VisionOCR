@@ -192,6 +192,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AutoCheckDlg.h" />
     <ClInclude Include="AutoSplitPages.h" />
     <ClInclude Include="AutoSplitPagesDoc.h" />
     <ClInclude Include="AutoSplitPagesView.h" />
@@ -274,6 +275,7 @@
     <ClInclude Include="ViewTree.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AutoCheckDlg.cpp" />
     <ClCompile Include="AutoSplitPages.cpp" />
     <ClCompile Include="AutoSplitPagesDoc.cpp" />
     <ClCompile Include="AutoSplitPagesView.cpp" />

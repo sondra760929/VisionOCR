@@ -65,21 +65,31 @@ void CTableDlg::OnLClicked(MyCugEdit* grid, int col, long row, int updn)
 	//	long startRow, endRow;
 	//	if (m_Grid.EnumFirstBlock(&startCol, &startRow, &endCol, &endRow) == UG_SUCCESS)
 	//	{
-	//		if (startCol == endCol)
+	//		if (startCol == endCol == 0)
 	//		{
 	//			if (startRow != endRow)
 	//			{
 	//				CString cell_string(m_Grid.QuickGetText(m_Grid.GetCurrentCol(), m_Grid.GetCurrentRow()));
-	//				CString temp_string;
-	//				temp_string.Format(_T("%s 로 선택된 영역에 입력하시겠습니까?"), cell_string);
-	//				if (AfxMessageBox(temp_string, MB_YESNO) == IDYES)
-	//				{
-	//					for (int i = min(startRow, endRow); i <= max(startRow, endRow); i++)
-	//					{
-	//						m_Grid.QuickSetText(startCol, i, cell_string);
-	//					}
-	//					m_Grid.RedrawAll();
-	//				}
+
+	//				m_pCurrentView->OnGridAutoCheck(WPARAM(min(startRow, endRow)), LPARAM(max(startRow, endRow)));
+	//				//auto_input_from = min(startRow, endRow);
+	//				//auto_input_to = max(startRow, endRow);
+	//				//PostMessage(WM_GRID_AUTO_CHECK, 0, 0);
+	//				//CString temp_string;
+	//				//CDlgAutoInput pDlg(cell_string, min(startRow, endRow), max(startRow, endRow), startCol);
+	//				//if (pDlg.DoModal() == IDOK)
+	//				//{
+
+	//				//}
+	//				//temp_string.Format(_T("%s 로 선택된 영역에 입력하시겠습니까?"), cell_string);
+	//				//if (AfxMessageBox(temp_string, MB_YESNO) == IDYES)
+	//				//{
+	//				//	for (int i = min(startRow, endRow); i <= max(startRow, endRow); i++)
+	//				//	{
+	//				//		m_Grid.QuickSetText(startCol, i, cell_string);
+	//				//	}
+	//				//	m_Grid.RedrawAll();
+	//				//}
 	//			}
 	//		}
 	//	}

@@ -258,6 +258,9 @@
     <ClInclude Include="DlgProgress.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="AutoCheckDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AutoSplitPages.cpp">
@@ -483,6 +486,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="DlgProgress.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoCheckDlg.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
