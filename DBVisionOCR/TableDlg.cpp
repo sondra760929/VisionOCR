@@ -153,6 +153,37 @@ void CTableDlg::OnCellChange(int oldcol, int newcol, long oldrow, long newrow)
 
 BOOL CTableDlg::PreTranslateMessage(MSG* pMsg)
 {
+	if (pMsg->message == WM_KEYDOWN)
+	{
+		if (pMsg->wParam == VK_F1)
+		{
+			m_pCurrentView->OnButtonSelClear();
+		}
+		else if (pMsg->wParam == VK_F2)
+		{
+			m_pCurrentView->OnButtonOCR_Select_all();
+		}
+		else if (pMsg->wParam == VK_F3)
+		{
+			m_pCurrentView->OnButtonOCR_Select_page();
+		}
+		else if (pMsg->wParam == VK_F4)
+		{
+			m_pCurrentView->OnButtonOcrSel();
+		}
+		else if (pMsg->wParam == VK_F5)
+		{
+			m_pCurrentView->OnButtonOCR_Page_all();
+		}
+		else if (pMsg->wParam == VK_F6)
+		{
+			m_pCurrentView->OnButtonOcrPageTextSub();
+		}
+		else if (pMsg->wParam == VK_F7)
+		{
+			m_pCurrentView->OnButtonOCR_Page_page();
+		}
+	}
 	//if (pMsg->message == WM_KEYDOWN)
 	//{
 	//	if (m_pView)
