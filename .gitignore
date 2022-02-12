@@ -7,3 +7,5 @@ x64/
 Setup_DBVisionOCR/Release/
 packages/
 DBVisionOCR/Release/
+AIOCRApp/bin/
+AIOCRApp/obj/
